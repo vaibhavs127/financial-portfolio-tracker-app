@@ -1,0 +1,65 @@
+.sform{
+    font-size: 18px;
+    margin-top:-40px;   
+}
+
+.adds{
+    font-size: 30px;
+}
+
+.btnclose{
+    margin-right: 10px;
+    font-size: 18px;
+    border-radius: 4px;
+    background-color: rgb(235, 79, 79);
+    padding: 3px 8px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.AddButton{
+    margin-right: 10px;
+    font-size: 18px;
+    border-radius: 4px;
+    background-color: rgb(129, 235, 119);
+    padding: 3px 8px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+
+#noshares{
+    justify-items: right;
+}
+
+label, input {
+    /* In order to define widths */
+    display: inline-block;
+}
+
+label {
+    width: 30%;
+    /* Positions the label text beside the input */
+    text-align: right;
+}
+
+label + input {
+    width: 30%;
+    /* Large margin-right to force the next element to the new-line
+       and margin-left to create a gutter between the label and input */
+    margin: 0 30% 0 4%;
+}
+input + input {
+    float: right;
+}
+
+label.company-name{
+    margin-right: 495px;
+}
+
+b.nameOf{
+    position: absolute;
+    left: 50%;
+}
+#serror{
+    color: red;
+}

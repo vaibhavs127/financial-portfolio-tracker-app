@@ -1,0 +1,47 @@
+.tickerMainContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.AddStocksTitle {
+    margin-bottom: 7px;
+    font-size: 30px;
+    text-align: left;
+    margin-top:7px;
+    margin-left: 43px;
+}
+
+.tickerContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.tickerItem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.StockButton{
+    padding: 10px;
+    border: 1px solid #333;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-top: 15px;
+    box-shadow: 3px 3px 3px 3px #ccc;
+    border-radius: 10%;
+}
+.StockButton:hover{
+    color: white;
+    background-color: #333;
+}
+
+.tickerItemText{
+    margin-left: -250px;
+    margin-top: 18px;
+}
+
+
+
+
+
